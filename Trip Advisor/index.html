@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <style>
+        @import url(https://fonts.google.com/specimen/Open+Sans);
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Underdog&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="Navbar">
+        <div class="navbar__s1">
+            <img src="Images/LOGO.png" alt="Trip Advisor logo">
+        </div>
+        <div class="navbar__s2">
+            <h4>
+                <p>Discover</p>
+                <p>Trips</p>
+                <p>Review</p>
+                <p>Forums</p>
+            </h4>
+        </div>
+
+        <div class="navbar__s3">
+            <svg viewBox="0 0 24 24" width="20px" height="20px" class="currency-icon" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.31 9.82h4.178c-.069-1.591-.356-2.993-.766-4.017-.237-.593-.501-1.023-.756-1.293-.211-.223-.38-.3-.5-.32h-.133c-.12.02-.289.097-.5.32-.255.27-.519.7-.756 1.293-.41 1.024-.697 2.426-.767 4.017m-.374-5.14q-.135.272-.252.566C8.194 6.472 7.88 8.07 7.81 9.82H5.055a6.39 6.39 0 0 1 3.88-5.14m2.301-1.989a7.883 7.883 0 0 0-7.726 7.88 7.88 7.88 0 0 0 7.884 7.885c.584 0 .871-.014 1.11-.074.124-.031.172-.049.213-.064.058-.02.099-.036.099-.073l-.26-1.477a4 4 0 0 0-.628.159c-.031.007-.132.029-.743.029-.121 0-.313-.06-.566-.327-.255-.27-.519-.699-.756-1.292-.41-1.025-.697-2.426-.767-4.017h4.203a4.7 4.7 0 0 1-.113.843 6 6 0 0 1-.112.413l-.012.04-.004.016c-.034.114-.089.298-.1.478l1.498.088v.006s.007-.035.044-.161l.012-.04c.038-.126.09-.298.136-.505.072-.313.134-.698.152-1.178h2.734a4.2 4.2 0 0 1-.195.949c-.055.16-.11.28-.166.403l-.004.01-.01.02c-.046.101-.132.288-.161.486l1.484.219-.005.026s.012-.032.057-.13l.008-.018c.056-.123.137-.3.216-.529.168-.49.31-1.168.31-2.186a7.88 7.88 0 0 0-7.72-7.879 2 2 0 0 0-.325 0m2.626 1.99q.134.271.252.565c.49 1.226.805 2.824.875 4.574h2.75a6.38 6.38 0 0 0-3.877-5.14M8.94 16.466a8 8 0 0 1-.256-.573c-.49-1.227-.805-2.824-.875-4.574H5.055a6.39 6.39 0 0 0 3.885 5.147">
+                </path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M20.489 12.343h-8.75v6.648h5.255l3.495 2.325zm-1.5 1.5v4.674l-1.542-1.026H13.24v-3.648z"></path>
+            </svg>
+            <p>|</p>
+            <p>INR</p>
+            <button class="sign-in">Sign in</button>
+        </div>
+    </div>
+
+    <div class="Search">
+        <div>
+            <h1>Where to?</h1>
+        </div>
+        <div class="Categories">
+            <i class="fa-solid fa-house"> <button>Search All</button></i>
+            <i class="fa-solid fa-hotel"> <button> Hotels</button></i>
+            <i class="fa-solid fa-camera"> <button> Things to do</button></i>
+            <i class="fa-solid fa-utensils"> <button> Restaurants</button></i>
+            <i class="fa-solid fa-house-user"> <button> Holiday Homes</button></i>
+
+        </div>
+
+        <div class="Search__option">
+            <div class="search__010">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                <input placeholder="Place to go, Things to do...">
+                <button>Search</button>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="banner">
+            <img src="Images/image 1.png" alt="promotion picture">
+        </div>
+        <!-- caption -->
+        <div class="captions">
+            <h1>Explore the world's most stunning seasides</h1>
+            <p>2025's Travellers' Choice Awards Best of the Best Beaches</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card__1">
+            <img src="./Images/picture1.jpg" alt="World">
+            <h1>World</h1>
+        </div>
+        <div class="c   ard__2">
+            <img src="./Images/europe.jpg" alt="Europe">
+            <h1>Europe</h1>
+        </div>
+        <div class="card__3">
+            <img src="./Images/asia.jpg" alt="Asia">
+            <h1>Asia</h1>
+        </div>
+        <div class="card__4">
+            <img src="./Images/south pacific.jpg " alt="South Pacific">
+            <h1>South Pacific</h1>
+        </div>
+    </div>
+    <div class="caption__2">
+        <h1>You might like this</h1>
+        <p>More things to do in Chennai (Madras)</p>
+    </div>
+    </div>
+    <div class="card--2">
+
+        <div class="card--2__1">
+            <img src="./Images/pnp1.jpg" alt="">
+            <p>Mahabalipuram &amp; Kanchipuram by tourism ministry approved company</p>
+            <span>5.0 🟢🟢🟢🟢🟢(321)</span>
+            <p>from ₹32,384 per adult</p>
+        </div>
+        <div class="card--2__2">
+            <img src="./Images/pnp2.jpg" alt="">
+            <p>Private 6 days Exotic Tamilnadu Tour from Chennai</p>
+            <span>4.7 🟢🟢🟢🟢🟢(227)</span>
+            <p>from ₹38,364 per adult</p>
+        </div>
+        <div class="card--2__3">
+            <img src="./Images/pnp3.jpg" alt="">
+            <p>Chennai to Pondicherry via Kanchipuram and Mahabalipuram</p>
+            <span>4.7 🟢🟢🟢🟢🟢(227)</span>
+            <p>from ₹28,499 per adult</p>
+        </div>
+        <div class="card--2__4">
+            <img src="./Images/pnp4.jpg" alt="">
+            <p>To Taj Mahal by express train</p>
+            <span>4.9 🟢🟢🟢🟢🟢(27)</span>
+            <p>from ₹3,499 per adult</p>
+        </div>
+    </div>
+    </div>
+    <div class="box__content">
+
+        <div class="imgg">
+            <img src="Images/box content.jpg" alt="beach">
+            <div class="context">
+                <h1>The Wanderer's Guide to Türkiye: Antalya</h1>
+                <p>Escape to a world of tranquillity and luxury in Macao, a sanctuary of opulent spas and serene
+                    wellness retreats that invite you to unwind and escape from the hustle of everyday life. Whether
+                    you're seeking a moment of calm or a transformative experience, Macao offers a plethora of
+                    activities for you to rejuvenate your mind, body and spirit.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="more-to-explore">
+        <h1>More to explore</h1>
+        <div class="explore">
+            <div class="image-card">
+                <img src="Images/Hotel image.jpg" alt="Lodge">
+                <p>7 Bangkok hotels that highlight Thailand's spectacular architecture</p>
+            </div>
+            <div class="image-card">
+                <img src="Images/street food image.jpg" alt="Street Food">
+                <p>3 days in Tokyo: The perfect itinerary</p>
+            </div>
+            <div class="image-card">
+                <img src="Images/chef image.jpg" alt="Chef at work">
+                <p>Where Bali’s best chefs go on their days off</p>
+            </div>
+            <div class="image-card">
+                <img src="Images/beach house.jpg" alt="beach house">
+                <p>6 Incredible places to visit near Phuket</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Dream_place">
+        <h1>Dream Your Next Trip</h1>
+        <h2>Weekend getaways from Chennai (Madras)</h2>
+        <div class="Dream_place_s1">
+            <div class="image-card">
+                <img src="./Images/MAHABALIPURAM.jpg" alt="MAHABALIPURAM">
+                <p>Mahabalipuram,India</p>
+            </div>
+            <div class="image-card">
+                <img src="./Images/BENGALURE.jpg" alt="Bengalore,India">
+                <p>Bengalore,India</p>
+            </div>
+            <div class="image-card">
+                <img src="./Images/jambukeswarar-temple.jpg" alt="jambukeswarar-temple">
+                <p>Tiruchirappalli,India </p>
+            </div>
+            <div class="image-card">
+                <img src="./Images/talakona-waterfall.jpg" alt="waterfall">
+                <p>Tirupati,India</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner__s2">
+        <img src="./Images/best travels.png" alt="promotion picture">
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer__1">
+            <div class="footer__1__s1">
+                <p>About Tripadvisor</p>
+                <p>About us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust &amp; Safety</p>
+                <p>Contact us</p>
+                <p>Accessibility Statement</p>
+
+            </div>
+            <div class="footer__1__s2">
+                <p>Explore</p>
+                <p>Write a Review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Traveller's choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+            <div class="footer__1__s3">
+                <p>Do Business With Us</p>
+                <p>Owners &amp; DMO/CVB</p>
+                <p>Business Advantages</p>
+                <p>Sponsored Placements</p>
+                <p>Access our content API</p>
+                <p>Get the App</p>
+                <p>iPhone App</p>
+                <p>Android App</p>
+
+            </div>
+            <div class="footer__1__s4">
+                <p>Tripadvisor Sites</p>
+                <p>Book tours and attraction tickets on Viator</p>
+            </div>
+
+        </div>
+        <div class="footer__2">
+            <div class="footer__2__s1">
+                <div class="footer__2__logo">
+                    <img src="./Images/logo (1).png">
+                </div>
+                <div class="footer__2__des">
+                    <p>© 2025 Tripadvisor LLC All rights reserved</p>
+                </div>
+            </div>
+            <div class="footer__2__s2">
+                <div class="footer__2__terms">
+                    <h4>Terms of use</h4>
+                    <h4>Privacy and cookies Statement</h4>
+                    <h4>Cookie consent</h4>
+                    <h4>Site Map</h4>
+                    <h4>How the site works</h4>
+                    <br>
+                    <h4>Contact us</h4>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer__3">
+            <div class="footer__3__icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="footer__3__des">
+                <p>
+                    This is the version of our website addressed to speakers of English in India.
+                    If you are a resident of another country or region, please select the appropriate version of
+                    Tripadvisor for your country or region in the drop-down menu.
+                    <span class="footer__show-more">Show more</span>
+                </p>
+            </div>
+        </div>
+
+
+
+
+</body>
+
